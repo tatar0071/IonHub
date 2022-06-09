@@ -36,19 +36,19 @@ local esp = {
     settings = {
         enabled = true;
         text_settings = {
-            name     = {enabled = true; position = "top"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); possible_positions = {"top", "bottom", "left", "right"}};
-            distance = {enabled = true; position = "bottom"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); convert = "meters"; possible_positions = {"top", "bottom", "left", "right"}};
-            health   = {enabled = true; position = "right"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); possible_positions = {"top", "bottom", "left", "right", "bar"}};
-            weapon   = {enabled = true; position = "right"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); possible_positions = {"top", "bottom", "left", "right"}};
+            name     = {enabled = false; position = "top"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); possible_positions = {"top", "bottom", "left", "right"}};
+            distance = {enabled = false; position = "bottom"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); convert = "meters"; possible_positions = {"top", "bottom", "left", "right"}};
+            health   = {enabled = false; position = "right"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); possible_positions = {"top", "bottom", "left", "right", "bar"}};
+            weapon   = {enabled = false; position = "right"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); possible_positions = {"top", "bottom", "left", "right"}};
         };
         health_settings = {
-            bar = {enabled = true; inverse = false; position = "left"; full_color = color3_new(0, 1, 0); empty_color = color3_new(1, 0, 0)};
+            bar = {enabled = false; inverse = false; position = "left"; full_color = color3_new(0, 1, 0); empty_color = color3_new(1, 0, 0)};
         };
-        box        = {enabled = true; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); mode = "default"};
-        box_fill   = {enabled = true; color = color3_new(1, 1, 1); transparency = 0.5};
-        snapline   = {enabled = true; color = color3_new(1, 1, 1); target = "Head"};
-        angle      = {enabled = true; color = color3_new(1, 1, 1)};
-        chameleon  = {enabled = true; color = color3_new(1, 1, 1); outline_color = color3_new(0, 0, 0), transparency = 0.5, outline_transparency = 0};
+        box        = {enabled = false; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); mode = "default"};
+        box_fill   = {enabled = false; color = color3_new(1, 1, 1); transparency = 0.5};
+        snapline   = {enabled = false; color = color3_new(1, 1, 1); target = "Head"};
+        angle      = {enabled = false; color = color3_new(1, 1, 1)};
+        chameleon  = {enabled = false; color = color3_new(1, 1, 1); outline_color = color3_new(0, 0, 0), transparency = 0.5, outline_transparency = 0};
         maximal_distance = 1000;
         font             = 2;
         font_size        = 13;
