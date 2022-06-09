@@ -34,7 +34,7 @@ local math_tan, math_rad, math_floor, math_round = math.tan, math.rad, math.floo
 -- // Library
 local esp = {
     settings = {
-        enabled = true;
+        enabled = false;
         text_settings = {
             name     = {enabled = false; position = "top"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); possible_positions = {"top", "bottom", "left", "right"}};
             distance = {enabled = false; position = "bottom"; color = color3_new(1, 1, 1); color_outline = color3_new(0, 0, 0); convert = "meters"; possible_positions = {"top", "bottom", "left", "right"}};
