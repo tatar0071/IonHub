@@ -89,7 +89,7 @@ local Images = {
 
 local ESP; ESP = {
     Settings = {
-        Enabled = false,
+        Enabled = true,
         Bold_Text = false,
         Objects_Enabled = true,
         Team_Check = false,
@@ -654,6 +654,7 @@ do  -- Object Metatable
             Name.Text = self.Name .. " [" .. math.floor(Vector.Z / 3.5714285714 + 0.5) .. "m]"
             Name.Position = Framework:V3_To_V2(Vector)
             Name.Visible = true
+print("NIGGER?")
 
             -- Addition
             if self.Addition.Text ~= "" then
