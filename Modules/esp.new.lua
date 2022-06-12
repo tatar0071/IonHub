@@ -96,7 +96,7 @@ local utility = {}; do
     end
     utility_connection = utility.connection
     esp.unload = function()
-        for _,c in pairs(connections) do
+        --[[for _,c in pairs(connections) do
             c:Disconnect()
         end
         for _, obj in next, esp.drawings do
@@ -109,7 +109,7 @@ local utility = {}; do
         instances = nil
         connections = nil
         esp = nil
-        getgenv().esp = nil
+        getgenv().esp = nil]]
     end
     local esp_overrides = esp.overrides
     esp.add = function(player)
