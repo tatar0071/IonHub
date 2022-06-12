@@ -654,8 +654,7 @@ do  -- Object Metatable
             Name.Text = self.Name .. " [" .. math.floor(Vector.Z / 3.5714285714 + 0.5) .. "m]"
             Name.Position = Framework:V3_To_V2(Vector)
             Name.Visible = true
-print("NIGGER?")
-
+            
             -- Addition
             if self.Addition.Text ~= "" then
                 Addition.Position = Name.Position + Vector2.new(0, Name.TextBounds.Y)
